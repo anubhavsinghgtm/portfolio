@@ -1,0 +1,86 @@
+:root{
+    --color-gray: rgb(122,124,128);
+    --color-white: rgb(255,255,255);
+    --color-tomato: rgb(250,110,46);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 1.5;
+
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--color-gray);
+}
+
+section{
+    padding: 50px;
+}
+
+
+.navbar{
+    margin: 0px 5rem;
+    padding: 20px 50px;
+
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--color-white);
+}
+
+
+.navbar .left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.navbar .logo{
+    font-size: 48px;
+}
+
+
+.navbar .left ul{
+    display: flex;
+    gap: 30px;
+}
+
+
+.navbar .right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar .right .social-links ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.navbar .right .cta-btn button{
+    
+
+    font: inherit;
+    border: none;
+    border-radius: 20px;
+
+    padding: 8px 24px;
+    background-color: var(--color-tomato);
+}
+
+.navbar .right .cta-btn button a{
+    color: var(--color-white);
+}
+
