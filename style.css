@@ -188,8 +188,56 @@ button{
 
 .about-content .right{
     width: 50%;
-    background-color: aliceblue;
 }
+
+
+.skills-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    width: 100px;
+
+}
+
+.skill-bar {
+    flex: 1;
+    height: 20px;
+    background-color: var(--color-gray);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+.skill-percentage {
+    height: 100%;
+    background-color: var(--color-tomato);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.skill-value {
+    width: 50px;
+    text-align: right;
+
+}
+
+
+
 
 .section-title h2::after{
     content: " ";
@@ -405,7 +453,6 @@ button a:hover{
     background-color: rgb(204, 31, 0);
     transition: 0.3s;
 }
-
 
 
 
