@@ -23,16 +23,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const text = document.getElementById('typing-text');
     const texts = [
         
-        "a Front-End Developer",
-        "a Back-End Developer",
         "a Full Stack Developer",
-        "a Logo Designer",
-        "a Creative Developer",
-        "an AWS Specialist",
+        "an ML Engineer",
+        "a Data Scientist",
+        "an AI Specialist",
+        "an AWS Expert",
         "a DevOps Professional",
+        "a Logo Designer",
         "a Technical Blogger",
-        "a Tech Enthusiast",
-
+        "a Python Developer"
     ];
 
     let textIndex = 0;
@@ -57,9 +56,3 @@ document.addEventListener('DOMContentLoaded', () => {
     type();
 });
 
-
-
-
-document.addEventListener('DOMContentLoaded', () => {
-
-});

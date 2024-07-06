@@ -605,6 +605,10 @@ button a:hover{
         flex-direction: column;
         gap: 20px;
     }
+
+    .fade-in-up.is-visible {
+        transform: translateY(0);
+    }
 }
 
 
