@@ -14,6 +14,7 @@
     text-decoration: none;
     line-height: 1.5;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }   
 
 a{
@@ -33,7 +34,26 @@ body{
 
 section{
     padding: 100px 100px;
+    opacity: 0; /* Start hidden */
+    transform: translateY(50px); /* Start slightly lifted */
+    transition: opacity 1s ease-out, transform 1s ease-out; /* Animate properties */
 }
+
+section.head{
+    transform: translateY(-30px);
+}
+
+/* section:nth-child(even) {
+    background-color: #f4f4f4;
+} */
+
+/* Fade-in and lift-up effect */
+.fade-in-up.is-visible {
+    opacity: 1;
+    transform: translateY(-50px);
+}
+
+
 
 button{
     border: none;
@@ -132,6 +152,18 @@ button{
     color: var(--color-white);
     background-color: var(--color-tomato);
 }
+
+
+
+
+#typing-text {
+    display: inline;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid black; /* Cursor effect */
+}
+
+
 
 .main-banner .subtext{
     width: 60%;

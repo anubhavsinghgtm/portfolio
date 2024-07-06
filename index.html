@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
 
     <title>Anubhav Singh</title>
 
@@ -15,14 +16,14 @@
 </head>
 <body>
     <!-- Head Section Starts -->
-    <section class="head">
+    <section class="head fade-in-up">
         <div class="navbar">
             <div class="left">
                 <div class="logo">A</div>
                 <div class="main-menu">
                     <ul>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Works</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Works</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,12 +44,17 @@
         <div class="main-banner">
             <div class="title-text">
                 <span class="front-text">Hey, I'm Anubhav</span>
-                <span> a Full Stack Developer</span>
+                <span id="typing-text">Full Stack Developer</span>
             </div>
 
+            <div class="typing-container">
+                <!-- <p id="typing-text">This is a typing effect using JavaScript.</p> -->
+            </div>
+
+
             <div class="subtext">
-                Nam vulputate ornare magna, quis maximus orci molestie at. 
-                Cras ornare, mi ut sodales euismod, odio nunc faucibus est, a feugiat tortor turpis vel turpis. Aenean fermentum augue et lacus.
+                Crafting digital experiences that inspire and innovate, merging creativity with technology to deliver seamless, user-centric solutions
+                 that transform ideas into impactful realities and drive digital transformation.
             </div>
 
             <div class="stats-card">
@@ -76,7 +82,7 @@
     <!-- Head Section Ends -->
 
     <!-- About Section Starts -->
-    <section class="about">
+    <section id="about" class="about fade-in-up">
         <div class="section-title">
             <h2>About</h2>
         </div>
@@ -127,7 +133,7 @@
     <!-- About Section Ends -->
 
     <!-- Project Section Starts -->
-    <section class="project">
+    <section id="projects" class="project fade-in-up">
         <div class="section-title">
             <h2>Projects</h2>
         </div>
@@ -195,7 +201,7 @@
     <!-- Project Section Ends -->
 
     <!-- Experiance Section Starts -->
-    <section class="experiance">
+    <section class="experiance fade-in-up">
         <div class="section-title">
             <h2>Experiance</h2>
         </div>
@@ -258,7 +264,7 @@
     <!-- Experiance Section Ends -->
 
     <!-- CTA Section Starts -->
-    <section class="cta">
+    <section class="cta fade-in-up">
             <div class="content">
                 <div class="title"><span>Want to start <br> </span>a project?</div>
                 <button><a href="mailto:anubhavsinghgtm@gmail.com">Let's talk</a></button>
@@ -267,7 +273,7 @@
     <!-- CTA Section Ends -->
 
     <!-- Footer Section Starts -->
-    <section class="footer">
+    <section class="footer fade-in-up">
         <div class="content">
             <div class="email">
                 <span>Work with us</span>
@@ -284,5 +290,7 @@
         </div>
     </section>
     <!-- Footer Section Ends -->
+
+    <script src="scripts.js"></script>
 </body>
 </html>
