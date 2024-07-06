@@ -4,6 +4,7 @@
     --color-tomato: rgb(250,110,46);
     --color-black: rgb(0,0,0);
     --color-subtext: rgb(51, 51, 51);
+    --color-tomato-hover: rgb(204, 31, 0);
 }
 
 
@@ -57,6 +58,7 @@ section.head{
 
 button{
     border: none;
+    background: none ;
     font: inherit;
 }
 
@@ -105,23 +107,6 @@ button{
     gap: 30px;
 }
 
-
-
-.navbar .right .cta-btn button a{
-    color: var(--color-white);
-    border-radius: 30px;
-    padding: 12px 30px;
-    font-size: 18px;
-    background-color: var(--color-tomato);
-}
-
-
-.navbar .right .cta-btn button a:hover{
-    background-color: rgb(204, 31, 0);
-    transition: 0.3s;
-
-
-}
 
 
 
@@ -440,7 +425,7 @@ button{
     border: 2px solid rgba(121, 121, 121, 0.2);
 }
 
-.cta button a{
+/* .cta button a{
 
     font-size: 18px;
     font-weight: bold;
@@ -448,7 +433,7 @@ button{
     padding: 16px 24px;
     border-radius: 50px;
     background-color: var(--color-tomato);
-}
+} */
 
 
 .footer{
@@ -481,14 +466,24 @@ button{
     gap: 30px;
 }
 
-button a:hover{
+
+.primary-btn{
+    font-size: 18px;
+    padding: 16px 24px;
+    border-radius: 30px;
+    color: var(--color-white);
+    background-color: var(--color-tomato);
+}
+
+.primary-btn:hover{
     background-color: rgb(204, 31, 0);
     transition: 0.3s;
 }
 
 
-
-
+.details button{
+    margin-top: 30px;
+}
 
 
 /* Media query */
@@ -501,8 +496,8 @@ button a:hover{
    }
 
    .about-content{
-        flex-direction: column;
-        gap: 30px;
+        flex-direction: column-reverse;
+        gap: 50px;
         transition: 1s;
    }
 
@@ -576,6 +571,10 @@ button a:hover{
         font-size: 40px;
     }
 
+    .primary-btn{
+        font-size: 16px;
+    }
+
 
     .navbar .left, .navbar .right, .navbar .left ul {
         gap: 20px;
@@ -616,6 +615,10 @@ button a:hover{
 
     section{
         padding: 40px;
+    }
+
+    .head{
+        padding-top: 30px;
     }
 
     .main-banner{
@@ -717,6 +720,11 @@ button a:hover{
     a{
         font-size: 14px;
     }
+
+    .primary-btn{
+        font-size: 14px;
+    }
+
 
     .stats-card .list .subtext {
         font-size: 12px;
