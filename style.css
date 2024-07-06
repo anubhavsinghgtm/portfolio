@@ -498,14 +498,10 @@ button a:hover{
     }
 
 
-    .navbar .left{
+    .navbar .left, .navbar .right, .navbar .left ul {
         gap: 20px;
     }
     
-    .navbar .right{
-        gap: 20px;
-    }
-
     .stats-card{
         
         flex-wrap: wrap;
@@ -610,7 +606,71 @@ button a:hover{
 
 
 @media (width < 560px) {
-    section{
-        padding: 25px;
+    .navbar .left, .navbar .right, .navbar .left ul {
+        gap: 15px;
     }
+
+    .main-banner {
+        padding: 60px 0;
+        gap: 35px;
+    }
+
+    .main-banner .subtext {
+        font-size: 15px;
+    }
+
+    section{
+        padding: 20px;
+    }
+
+    .title-text {
+        font-size: 30px;
+    }
+    
+    p{
+        font-size: 14px;
+    }
+
+    a{
+        font-size: 14px;
+    }
+
+    .stats-card .list .subtext {
+        font-size: 12px;
+    }
+
+    .stats-card .list {
+        font-size: 24px;
+    }
+
+    .section-title h2 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .experiance {
+        width: 90%;
+    }
+
+    .cta .content .title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .cta {
+        width: 85%;
+    }
+
+    .cta button a {
+        font-size: 13px;
+        padding: 14px 22px;
+    }
+
+    
+
+    .footer span,.navbar .right .cta-btn button a{
+        font-size: 14px;
+    }
+
+    
 }
