@@ -84,8 +84,9 @@ button{
 }
 
 
-.navbar .logo{
-    font-size: 48px;
+.navbar .logo img{
+    height: 80px;
+    width: 80px;
 }
 
 
