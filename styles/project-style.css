@@ -1,0 +1,143 @@
+
+h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+h1{
+    line-height: 1;
+}
+
+section.main-container{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.banner-img{
+    height: 150px;
+    background: rgb(191,173,97);
+    background: linear-gradient(90deg, rgba(191,173,97,1) 0%, rgba(121,9,32,1) 45%, rgba(54,139,157,1) 100%);
+}
+
+.project-desc{
+    display: flex;
+    gap: 50px;
+}
+
+.project-desc .left{
+    flex: 2;
+}
+
+
+
+.project-desc .right{
+    flex: 1;
+}
+
+
+
+.project-title h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    
+}
+
+
+
+section{
+    opacity: 1;
+}
+
+
+.details{
+    display: flex;
+    gap: 30px;
+}
+
+.right ul{
+    padding: 15px 0;
+}
+
+.right ul li{
+    padding: 5px 0;
+    border-bottom: 1px solid black ;
+}
+
+.details .left .cards{
+    padding: 30px 0;
+    display: flex;
+    gap: 30px;
+}
+
+
+.details .card{
+    min-width: 180px;
+    height: 150px;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    background-color: rgb(250, 171, 171);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.details .card:nth-child(odd){
+    background-color: rgb(253, 196, 196);
+}
+
+
+
+.details .card:nth-child(even){
+    background-color: rgb(226, 250, 186);
+}
+
+.card .main-text{
+    font-size: 50px;
+    
+}
+
+
+.card .subtext{
+    position: absolute;
+    bottom: 30px;
+    padding-left: 5px;
+}
+
+@media (width < 1240px) {
+    .banner-img{
+        height: 120px;
+    }
+
+    .project-desc {
+        flex-direction: column;
+    }
+}
+
+
+@media (width < 1084px) {
+    .banner-img{
+        height: 100px;
+    }
+}
+
+
+@media (width < 990px) {
+    .banner-img{
+        height: 90px;
+    }
+}
+
+
+@media (width < 780px) {
+    .banner-img{
+        height: 80px;
+    }
+}
+
+
+@media (width < 560px) {
+    .banner-img{
+        height: 75px;
+    }
+}
